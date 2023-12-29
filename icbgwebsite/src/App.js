@@ -3,12 +3,15 @@ import Home from "./Home";
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider} from 'react-router-dom';
 import About from "./About";
 import RootLayout from './layouts/RootLayout';
+import NewsEvents from "./NewsEvents";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RootLayout />}>
       <Route index element={<Home />} />
       <Route path="about" element={<About />} />
+      <Route path="newsevents" element={<NewsEvents/>} />
+      //add in new paths here
     </Route>
   )
 )

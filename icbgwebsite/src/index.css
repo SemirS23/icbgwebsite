@@ -3,14 +3,17 @@
 /* base styles */
 * {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: "Poppins";
   color: #333;
 }
+
 .navbar {
   padding: 20px;
   display: flex;
   align-items: center;
-  max-width: 600px;
+  max-width: 1500px;
   margin: 0 auto;
   border-bottom: 1px solid #f2f2f2;
 }
@@ -29,7 +32,12 @@
   color: #f1356d;
 }
 .content {
-  max-width: 600px;
+  max-width: 1000px;
   margin: 40px auto;
   padding: 20px;
+}
+
+.home h2{
+  text-align: center;
+  font-size: 48px;
 }

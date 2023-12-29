@@ -12,6 +12,7 @@ function RootLayout() {
                         
                         <NavLink to='/'>Home</NavLink>
                         <NavLink to='about'>About</NavLink>
+                        <NavLink to='newsevents'>News and Events</NavLink>
                         </div>
                 </nav>
             </header>

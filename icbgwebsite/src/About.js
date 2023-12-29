@@ -1,7 +1,11 @@
+import './About.css';
+
 function About(){
     return(
         <div className="about">
-            <h2>About</h2>
+            <h2>Meet Our Board Members</h2>
+
+        
         </div>
     );
 }
